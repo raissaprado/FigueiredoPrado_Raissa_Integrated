@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>The Sun | Home</title>
+
+<!--
+    <link href="reset.css" rel="stylesheet" type="text/css" media="screen">
+    -->
+<link href="css/reset.css" rel="stylesheet" type="text/css" media="screen">
+<link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
+</head>
+
+<body>
+        <h1 class="hidden">Homepage - The Sun</h1>
+
+	<section id="topBar"></section>
+    <h2 class="hidden">Top Bar</h2> <!--Its odd for me to put this but the validator asked me to and even with it kept asking like there was nothing. The outline also shows it something weird. -->
+
+	<div id="siteContainer">
+
+    <header>
+        <div id="logo">
+    <img src="images/logo_header.jpg" alt="logo_home" onclick="window.location='index.html';">
+        </div>
+
+    <nav id="mainNav">
+        <h2 class="hidden">Main navigation</h2>
+        <ul>
+        <li><a href="beers.html">Our beers</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <main>
+        <br>
+
+            <section id="promo_beers">
+             <h2 class="hidden">Customize your label</h2>
+
+        	<div>
+                <img src="images/promo_yourbeer.jpg" alt="banner_beers" onclick="window.location='contact.html';">
+            </div>
+           </section>
+
+           <section id="promo_recipes">
+           <h2 class="hidden">See our recipes</h2>
+
+            <div>
+                <img src="images/promo_recipes.jpg" alt="banner_recipes"> <!--This click would send to Instagram page, where it would be th recipes-->
+            </div>
+            <br>
+          </section>
+
+        <section id="presenting_beers">
+
+        <h2 class="hidden">Our beers</h2>
+
+        	<section class="noon_home">
+            <h3 class="hidden">The Noon</h3>
+            <img src="images/ourbeers_noon.jpg" alt="banner_beers" onclick="window.location='beers.html';">
+
+            </section>
+            <section class="sunset_home">
+               <h3 class="hidden">The Sunset</h3>
+
+            <img src="images/ourbeers_sunset.jpg" alt="banner_beers" onclick="window.location='beers.html';">
+            </section>
+            <section class="eclipse_home">
+               <h3 class="hidden">The Eclipse</h3>
+
+            <img src="images/ourbeers_eclipse.jpg" alt="banner_beers" onclick="window.location='beers.html';">
+            </section>
+        </section>
+
+</main>
+
+        <footer id="mainFooter">
+        <h2 class="hidden">Footer</h2>
+
+        	<div id="footerNav"><p>RESPONSIBLE CONSUME • UNTAPPD • INSTAGRAM • PINTEREST</p></div><!--Let's pretend this content and social media accounts exists...-->
+
+            <div id="copyRight"><p>Copyright © 2021 Raissa Prado</p></div>
+        </footer>
+
+    </div><!--end siteContainer-->
+
+<script src="js/main.js"></script>    
+</body>
+</html>
